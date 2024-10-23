@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style3.css">
+  <style>
+    h1{
+      text-align: center;
+      color:white;
+      background-color: cadetblue;
+      padding: 1rem;
+      width:fit-content;
+      margin-left:50%;
+      transform: translateX(-50%);
+    }
+    .page{
+      background-color: white;
+      margin:1rem  25rem;
+      padding: 1rem;
+      
+     
+    }
+    button{
+      background-color: green;
+      margin-left:50%;
+      transform: translateX(-50%);
+      padding: 0.5rem 1rem;
+      color:white;
+      border:solid 1px green;
+      cursor: pointer;
+    }
+
+    
+      
+    
+  </style>
+</head>
+<body>
+  <nav class="navBar">
+    <ul class="list1">
+    <i class="fa-solid fa-bars" id="bars" onclick="dropdown()" style="cursor: pointer;"></i>
+    <li><img src="images/logo.jpg" class="logo" width="50px" ></li>
+    <li>My Apps <i class="fa-solid fa-sort-down"></i></li>
+     <li>Home</li>
+     <li>Explore</li>
+     <li><input type="text" placeholder="Search for contacts and projects" id="text"></li>
+     </ul>
+    <ul class="list2">
+      <li><i class="fa-solid fa-bell"></i></li>
+      <li><i class="fa-regular fa-envelope"></i></li>
+      <li><i class="fa-solid fa-user"></i> User</li>
+      <li id="create"><i class="fa-solid fa-plus"></i> Create</li>
+      <li id="more"><i class="fa-solid fa-list-ul"></i> More</li>
+    </ul>
+  </nav>
+
+  <h1>Projects</h1>
+  <div class="page">
+    Projects 1
+    </div>
+  <div class="page">
+    Projects 2
+  </div>
+  <div class="page">
+    Projects 3
+  </div>
+
+  <button>ADD</button>
+
+
+ 
+</body>
+</html>
